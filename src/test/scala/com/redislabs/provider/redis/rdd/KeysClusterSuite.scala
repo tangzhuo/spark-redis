@@ -12,7 +12,7 @@ class KeysClusterSuite extends FunSuite with Keys with ENV with BeforeAndAfterAl
 
   override def beforeAll() {
     super.beforeAll()
-
+    //test branch
     sc = new SparkContext(new SparkConf()
       .setMaster("local").setAppName(getClass.getName)
       .set("redis.host", "127.0.0.1")
