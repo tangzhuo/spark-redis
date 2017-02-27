@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.org/RedisLabs/spark-redis.svg)](https://travis-ci.org/RedisLabs/spark-redis)
-
+#
+# add this project to Spark 1.6.0 as a sub project.
 # Spark-Redis
 A library for reading and writing data from and to [Redis](http://redis.io) with [Apache Spark](http://spark.apache.org/)
 
